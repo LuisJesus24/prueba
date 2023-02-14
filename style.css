@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(133, 66, 94);
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+.flex {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    flex-direction: column;
+    font-size: 2rem;
+    background-color: rgb(236, 236, 236);
+    border-radius: 2rem;
+    width: 30rem;
+}
+h3 {
+    -webkit-text-stroke: .000001px black;
+    color: white;
+}
+
+.pregunta { 
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem 2rem 0 0;
+    background: rgb(255,65,85);
+    background: linear-gradient(58deg, rgba(255,65,85,1) 0%, rgba(255,182,59,1) 100%);
+    color:rgb(255, 255, 255);
+    width: 30rem;
+}
+
+.respuestas {
+    margin-top: 1rem;
+    
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    
+    
+}
+
+.respuesta {
+    border-color: rgb(148, 148, 148);
+    margin-bottom: .5rem;
+    border-radius: 2rem;
+    width: 15rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: rgb(153, 152, 152);
+}
